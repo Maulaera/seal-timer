@@ -7,8 +7,10 @@
   --brown: #d1a483;
 }
 
-body {
+body {  
   font-family: "Minecraft";
+  width: "810";
+  height: "1080";
 }
 
 h1 {
