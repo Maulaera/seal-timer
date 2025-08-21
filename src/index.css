@@ -3,18 +3,24 @@
   src:url(fonts/Minecraft.ttf);
 }
 
-:root {
-  --brown: #d1a483;
-}
-
 body {  
   font-family: "Minecraft";
-  width: "810";
-  height: "1080";
+  color: hsl(24, 62%, 85%);
+  background-color:#aec6e4;
 }
 
 h1 {
   font-family:"Minecraft";
-  color: var(--brown);
+  text-align: center;
+  text-wrap:balance;
+  color:"#d1a483";
 }
 
+
+.progress-bar{
+  height: 100%;
+  width: 0%;
+  background: #4caf50;
+  border-radius: 5px;
+  transition: width 0.3s ease;
+}
